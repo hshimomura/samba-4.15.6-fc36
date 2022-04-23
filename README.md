@@ -8,7 +8,19 @@ Looks Samba 4.15.x train doesn't have the issue, hence I bollow Samba 4.15.x SPE
 Run like followings where packages you downloaded.
 
 ```
-sudo dnf localinstall  samba-4.15.6-1hs.fc36.x86_64.rpm  libwbclient-4.15.6-1hs.fc36.x86_64.rpm python3-samba-4.15.6-1hs.fc36.x86_64.rpm python3-samba-dc-4.15.6-1hs.fc36.x86_64.rpm  samba-common-tools-4.15.6-1hs.fc36.x86_64.rpm  samba-dc-libs-4.15.6-1hs.fc36.x86_64.rpm samba-libs-4.15.6-1hs.fc36.x86_64.rpm  samba-client-4.15.6-1hs.fc36.x86_64.rpm  samba-client-libs-4.15.6-1hs.fc36.x86_64.rpm samba-common-4.15.6-1hs.fc36.noarch.rpm samba-common-libs-4.15.6-1hs.fc36.x86_64.rpm libsmbclient-4.15.6-1hs.fc36.x86_64.rpm
+sudo dnf localinstall \
+samba-4.15.6-1hs.fc36.x86_64.rpm \
+libwbclient-4.15.6-1hs.fc36.x86_64.rpm \
+python3-samba-4.15.6-1hs.fc36.x86_64.rpm \
+python3-samba-dc-4.15.6-1hs.fc36.x86_64.rpm \
+samba-common-tools-4.15.6-1hs.fc36.x86_64.rpm \
+samba-dc-libs-4.15.6-1hs.fc36.x86_64.rpm \
+samba-libs-4.15.6-1hs.fc36.x86_64.rpm \
+samba-client-4.15.6-1hs.fc36.x86_64.rpm \
+samba-client-libs-4.15.6-1hs.fc36.x86_64.rpm \
+samba-common-4.15.6-1hs.fc36.noarch.rpm \
+samba-common-libs-4.15.6-1hs.fc36.x86_64.rpm \
+libsmbclient-4.15.6-1hs.fc36.x86_64.rpm
 ```
 
 # To prevent Fedora official repo packages for Samba
